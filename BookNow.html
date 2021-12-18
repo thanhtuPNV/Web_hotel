@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Book Now</title>
+    <link rel="stylesheet" href="./Icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./BookNow.css">
+    <link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/522874b971.js" crossorigin="anonymous"></script>
+    <!--  -->
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header w-100 ">
+        <div class="container-lg w-100">
+            <div id="img-logo">
+                <a href="./Website_Hotel.html"><img src="./Anh_Hotel/lllo.png"></a>
+            </div>
+            <div class="row-row py-3">
+                <div class="row text-light" style="font-size: 12px;">
+                    <div class="col">DESTINATION</div>
+                    <div class="col" style="left: 143px;">GUESTS & ROOMS</div>
+                    <div class="col" style="left: 90px;">DATES OF STAY</div>
+                    <div class="col text-right col-p">ENGLISH (US) (USD)</div>
+                </div>
+                <div class="row row-day">
+                    <div class="col"><input style="width: 57vh;height: 45px;border: 0;outline: 0;" type="text" placeholder=" where would you like to go?">
+                    </div>
+                    <div class="col">
+                        <input style="width: 37vh;height: 45px;border: 0;outline: 0;" type="text" placeholder=" 👤 1, 🛏 1">
+                    </div>
+                    <div class="col col-lich">
+                        <p class="bg-trang" href="" style="text-decoration: none;">
+                            <input type="text" class="pt-2 text-muted" placeholder=" Choose date" style="border: 0;outline: 0;">
+                            <a href="https://time.is/vi/Thailand#time_zone" class="text-muted text-decoration-none"><i class="ti-calendar px-5"></i></a>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <button class="text-light bg-danger" style="left: 240px;position: relative;width: 105px;height: 45px;"><b>SEARCH</b></button>
+                    </div>
+                    <div class="col"><a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn text-light" type="button" style="left: 155px;position: relative;"><i style="font-size: 20px;" class="fas fa-globe-europe"></i><br><i class="ti-angle-down"></i></a></div>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card-card-body">
+                            <div class="card-card-body-1">
+                                <p>LANGUAGE</p>
+                                <select class="w-100" style="height: 40px;outline: 0;">
+                                    <option>ภาษาไทย</option>
+                                    <option>English (US)</option>
+                                    <option>Indonesia</option>
+                                </select>
+                                <p style="top: 10px;position: relative;">CURRENCY</p>
+                                <a style="border: 1px solid gray;" class="btn w-100" data-toggle="collapse" href="#collapseExampl" role="button" aria-expanded="false" aria-controls="collapseExample">USD
+                                </a>
+                                <div class="collapse" id="collapseExampl">
+                                    <div class="cardcard-body ">
+                                        <select size=8 style="overflow:auto;position:absolute;" class="w-100">
+                                            <option value="volvo">USD</option>
+                                            <option value="saab">EUR</option>
+                                            <option value="opel">THB</option>
+                                            <option value="audi">AED</option>
+                                            <option value="audi">AFA</option>
+                                            <option value="audi">AMD</option>
+                                            <option value="opel">ANG</option>
+                                            <option value="opel">ANG</option>
+                                            <option value="opel">ARS</option>
+                                            <option value="opel">AUD</option>
+                                            <option value="opel">BBD</option>
+                                            <option value="opel">BOB</option>
+                                            <option value="opel">BSD</option>
+                                            <option value="opel">BRL</option>
+                                            <option value="opel">BZD</option>
+                                            <option value="opel">CAD</option>
+                                            <option value="opel">CHF</option>
+                                            <option value="opel">BHD</option>
+                                            <option value="opel">GEL</option>
+                                            <option value="opel">DOP</option>
+                                            <option value="opel">CZK</option>
+                                            <option value="opel">EEK</option>
+                                            <option value="opel">FJD</option>
+                                            <option value="opel">INR</option>
+                                            <option value="opel">JPY</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <a href="" class="btn w-100 my-3 text-danger border-danger " type="button">CANCEl</a>
+                                <a href="" class="btn w-100 bg-danger text-light" type="button">UPDATE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="content w-100">
+            <div class="content-left" style="float: left;">
+                <img src="./Anh_Hotel/lllo.png" alt="">
+                <div class="content-left-trong">
+                    <p class="lead font-weight-bolder">FILTER BY: </p>
+                    <p>9 properties found</p>
+                    <p><b>PRICE RANGE</b></p>
+                    <div data-role="page">
+                        <div class="slider">
+                            <input type="range" min="0" max="1000" onchange="rangevalue.value=value" />
+                            <output id="rangevalue">$ 500</output>
+                        </div>
+                    </div>
+                    <br>
+                    <b>HOTEL CLASS</b><br>
+                    <input type="checkbox"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i><br>
+                    <input type="checkbox"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                    <div class="py-3">
+                        <b>PACKAGE</b><br>
+                        <select class="w-100" style="height: 40px;">
+                            <option>All Packages</option>
+                            <option>Family Packages</option>
+                            <option>Packages</option>
+                            <option>Test and Go Package</option>
+                        </select>
+                    </div>
+                    <div class="py">
+                        <b>RATE OPTIONS                        </b><br>
+                        <select class="w-100" style="height: 40px;">
+                            <option>All Rate Options</option>
+                            <option>ไทยเที่ยวไทย วีคเดย์สเปเชียล</option>
+                            <option>ไทยเทียวไทย 60</option>
+                            <option>Weekday Special</option>
+                            <option>Promotional Rate</option>
+                            <option>Flexible Rate</option>
+                            <option>Best Flexible Rate</option>
+                            <option>Best Flexible Rate</option>
+                            <option>Songkran Escape Package</option>
+                            <option>Ur Flexible Hot Deal</option>
+                            <option>Ur Deluxe Wellbeing Package</option>
+                            <option>Best Flexible Rate Room Only</option>
+                            <option>Ur Flexible Hot Deal Staycation</option>
+                            <option>Ur Weekday</option>
+                        </select>
+                    </div>
+                    <div class="py-3">
+                        <b>AMENITIES</b><br>
+                        <select class="w-100" style="height: 40px;">
+                            <option>24-Hour Room Service</option>
+                            <option>24-Hour Security</option>
+                            <option>Alcoholic beverages</option>
+                            <option>All public areas non-smoking</option>
+                            <option>Brailled Elevators</option>
+                            <option>Bus and RV Parking</option>
+                            <option>Business Center</option>
+                            <option>Car Rental Desk</option>
+                            <option>Children welcome</option>
+                            <option>Coffee & Tea Making Facilities</option>
+                            <option></option>
+                        </select>
+                    </div>
+                    <div class="py">
+                        <b>PREMIUM AMENITIES</b><br>
+                        <select class="w-100" style="height: 40px;">
+                            <option>24 Hour Use Of Room</option>
+                            <option>24-Hour Front Desk</option>
+                            <option>Air Conditioned</option>
+                            <option>Bar</option>
+                            <option>Dining</option>
+                            <option>Exercise Gym</option>
+                            <option>Free Wi-Fi</option>
+                            <option>Outdoor Pool</option>
+                            <option>Welcome Drink from the Mini bar</option>
+                        </select>
+                    </div>
+                    <div class="py-3">
+                        <b>PROPERTY</b><br>
+                        <select class="w-100" style="height: 40px;">
+                            <option>All Propertys</option>
+                            <option>U Chiang Mai</option>
+                            <option>U Paasha Seminyak Bali</option>
+                            <option>U Inchantree Kanchanaburi</option>
+                            <option>U Pattaya</option>
+                            <option>U Sathorn Bangkok</option>
+                            <option>U Nimman Chiang Mai</option>
+                            <option>U Khao Yai</option>
+                            <option>U Jomtien Pattaya</option>
+                            <option>U Samui </option>
+                        </select>
+                    </div>
+                    <div class="py">
+                        <b>COUNTRY</b><br>
+                        <select class="w-100" style="height: 40px;">
+                            <option>Thailand</option>
+                            <option>Indonesia</option>
+                        </select>
+                    </div>
+                    <a class="btn btn-lg bg-danger w-100 text-light" style="top:50px;position: relative;">APPLY</a>
+                    <a style="top:54px;position: relative;">Modify/Cancel Reservation</a>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="content-right-right-duoi">
+                    <!-- row1 -->
+                    <div class="row w-100">
+                        <div class="col col-view"><img src="./Anh_Hotel/ubsp_crop6.jpg">
+                            <p>U Pattaya <br> <i class="ti-location-pin text-danger"></i> Sattahip <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn" type="button"></a>
+                        </div>
+                        <div class="col col-view"><img src="./Anh_Hotel/usat_crop2.jpg">
+                            <p>U Sathorn Bangkok <br> <i class="ti-location-pin text-danger"></i> Bangkok <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn" type="button"></a>
+                        </div>
+                        <div class="col col-view"><img src="./Anh_Hotel/u_nimman_chiang_mai_-_overal_mainl.jpg">
+                            <p>U Nimman Chiang Mai <br> <i class="ti-location-pin text-danger"></i> Chiang Mai <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn1 text-light" type="button">FROM <del>$ 107.91</del> <b>$75.54</b></a>
+                            <a class="btn btn-btn0 text-light" type="button"><b>BOOK</b></a>
+                        </div>
+                    </div>
+                    <!-- row1 -->
+                    <!-- row2 -->
+                    <div class="row w-100 my-3">
+                        <div class="col col-view"><img src="./Anh_Hotel/pool_villa_main.jpg">
+                            <p>U Samui <br> <i class="ti-location-pin text-danger"></i> Koh Samui
+                                <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn" type="button"></a>
+                        </div>
+                        <div class="col col-view"><img src="./Anh_Hotel/ucm_main.jpg">
+                            <p>U Chiang Mai <br> <i class="ti-location-pin text-danger"></i> Chiang Mai <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn1 text-light" type="button">FROM <del>$ 74.93</del> <b>$52.45</b></a>
+                            <a class="btn btn-btn0 text-light" type="button"><b>BOOK</b></a>
+                        </div>
+                        <div class="col col-view"><img src="./Anh_Hotel/upb_crop_5.jpg">
+                            <p>U Paasha Seminyak Bali <br> <i class="ti-location-pin text-danger"></i> Seminyak <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn1 text-light" type="button">FROM <del>$ 36.09</del> <b>$36.67</b></a>
+                            <a class="btn btn-btn0 text-light" type="button"><b>BOOK</b></a>
+                        </div>
+                    </div>
+                    <!-- row2 -->
+                    <!-- row3 -->
+                    <div class="row w-100">
+                        <div class="col col-view"><img src="./Anh_Hotel/ukb_lobby_crop.jpg">
+                            <p>U Inchantree Kanchanaburi <br> <i class="ti-location-pin text-danger"></i> Kanchanaburi <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn1 text-light" type="button">FROM <del>$ 77.93</del> <b>$54.55</b></a>
+                            <a class="btn btn-btn0 text-light" type="button"><b>BOOK</b></a>
+                        </div>
+                        <div class="col col-view"><img src="./Anh_Hotel/overall_15.jpg">
+                            <p>U Khao Yai <br> <i class="ti-location-pin text-danger"></i> Khao Yai <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn1 text-light" type="button">FROM <del>$ 245.04</del> <b>$172.09</b></a>
+                            <a class="btn btn-btn0 text-light" type="button"><b>BOOK</b></a>
+                        </div>
+                        <div class="col col-view">
+                            <img src="./Anh_Hotel/u_jomtien_pattaya_-_04_suite_seaview_1.jpg">
+                            <p>U Jomtien Pattaya <br> <i class="ti-location-pin text-danger"></i> Sattahip <br><i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"> </i>
+                            </p>
+                            <a class="btn btn-btn1 text-light" type="button">FROM <del>$ 77.93</del> <b>$55.55</b></a>
+                            <a class="btn btn-btn0 text-light" type="button"><b>BOOK</b></a>
+                        </div>
+                    </div>
+                    <!-- row3 -->
+                    <!--  -->
+
+                    <!--  -->
+                </div>
+            </div>
+            <div class="content-right-left-tren">
+                <div class="row">
+                    <div class="col-82">
+                        <div class="content-right-left-tren1">
+                            <a class="btn h-100" style="width: 160px;left: 12px;position: relative;border-bottom: 1px solid gray;" data-toggle="collapse" href="#collapseE" role="button" aria-expanded="false" aria-controls="collapseExample">Add Code</a>
+                            <div class="collapse" id="collapseE">
+                                <div class="carcard-body">
+                                    <div class="card-card-body-2">
+                                        <select class="w-100" style="height: 40px;outline: 0;">
+                                <option>Discount Code</option>
+                                <option>Group Attendee</option>
+                                <option>Promo/Corporate</option>
+                            </select>
+                                        <input class="w-100 mt-3" type="text" style="height: 40px;outline: 0;">
+                                        <a href="" class="btn w-100 my-3 text-danger border-danger " type="button">CANCEl</a>
+                                        <a href="" class="btn w-100 bg-danger text-light" type="button">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coll" style="left: 90vh;position: relative;">
+                        <span>
+                            <p class="btn btn-lg border">SORT|
+                            <select class="h-100" style="height: 40px;outline: 0;border: 0;">
+                                <option>Alphabetical - A to Z</option>
+                                <option>Alphabetical - Z to A</option>
+                                <option>Star Rating (High to Low)</option>
+                                <option>Price (Low to High)</option>
+                                <option>Price (High to Low)</option>
+                            </select>
+                        </p>
+                        <a style="left: 40px;position: relative;top: -9px;" class="btn btn-lg bg-danger text-light" type="button"><i class="fas fa-align-justify"></i></a>
+                        <a style="left: 40px;position: relative;top: -9px;" class="btn btn-lg border" type="button"><i class="fas fa-align-right"></i></a>
+                        <a style="left: 40px;position: relative;top: -9px;" class="btn btn-lg border text-warning" type="button"><i class="fas fa-street-view" ></i></a>                 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
+</body>
+
+</html>
+
+</html>
+
+</html>
+<!-- 
+
+
+
+
+
+
+ -->
